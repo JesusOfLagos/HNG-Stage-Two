@@ -17,13 +17,13 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/yourusername/express-mongodb-api.git
-   ```
+
    ```
    cd HNG-Stage-Two
-   ```
+
    ```
    npm install
-   ```
 
-``` npm start ```
+
+``` npm start 
 
