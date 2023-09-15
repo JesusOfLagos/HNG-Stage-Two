@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/express-mongodb-api.git
+   git clone https://github.com/JesusOfLagos/HNG-Stage-Two.git
 2. Navigate to the project directory:
    ```
    cd HNG-Stage-Two
@@ -46,9 +46,54 @@ a. Request Body:
 b. Response Body
 ```
 {
+  "id": "icidoi988988v9iu"
   "name": "John Doe"
 }
 
 ```
 2. Get A Person By Id
 
+   ```
+   GET /api/:id
+
+
+a. Response Body
+```
+{
+  "name": "John Doe"
+}
+
+```
+3. Update A Person By Id
+
+   ```
+   PUT /api/:id
+
+
+a. Request Body
+```
+{
+  "name": "John Doe"
+}
+```
+
+b. Response Body:
+```
+   {
+     "message": "Person Updated Successfully"
+   }
+```
+
+4. Delete A Person By Id
+
+   ```
+   DELETE /api/:id
+
+
+a. Response Body
+```
+{
+  "message": "Person Deleted Successfully"
+}
+
+```
